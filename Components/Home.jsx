@@ -34,15 +34,15 @@ const Home = () => {
         </nav>
 
         {/* Hero Section */}
-        <section className="relative flex flex-col items-center text-center mt-8 px-6">
-        
+        <section className="relative flex flex-col items-center text-center py-8 px-6">
+
           <h1 className="text-4xl md:text-6xl font-bold text-gray-900 font-[playfair_display] leading-tight z-10">
             Celebrating Emaan's<br />
             <span className="text-pink-700">22nd</span>
           </h1>
           <p className="mt-4 max-w-xl text-gray-600 z-10">
-           Read somewhere that peak friendship is when they give you handmade gifts that make you cry
-So this is curated just for you, by thinking about only you✨
+            Read somewhere that peak friendship is when they give you handmade gifts that make you cry
+            So this is curated just for you, by thinking about only you✨
           </p>
 
           {/* Polaroid Style Hero Images */}
@@ -67,16 +67,16 @@ So this is curated just for you, by thinking about only you✨
       {/* Marquee */}
       <div id="About" className="w-full bg-pink-700 py-2 overflow-hidden">
         <div className="whitespace-nowrap animate-marquee text-white font-bold uppercase tracking-widest text-[14px]">
-          HAPPY BIRTHDAY NAFSEEATI • HAPPY BIRTHDAY NAFSEEATI • HAPPY BIRTHDAY NAFSEEATI • 
-          HAPPY BIRTHDAY NAFSEEATI • HAPPY BIRTHDAY NAFSEEATI • HAPPY BIRTHDAY NAFSEEATI • 
+          HAPPY BIRTHDAY NAFSEEATI • HAPPY BIRTHDAY NAFSEEATI • HAPPY BIRTHDAY NAFSEEATI •
+          HAPPY BIRTHDAY NAFSEEATI • HAPPY BIRTHDAY NAFSEEATI • HAPPY BIRTHDAY NAFSEEATI •
         </div>
       </div>
 
-      
 
-     
 
-    
+
+
+
     </>
   );
 };
