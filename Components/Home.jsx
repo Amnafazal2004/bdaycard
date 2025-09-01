@@ -15,18 +15,21 @@ const Home = () => {
     <>
       <div className="min-h-screen bg-gradient-to-r from-[#FDE2E4] via-[#FFF0F3] to-[#FAD2E1]">
 
-        {/* Navbar */}
-        <nav className="flex justify-between bg-pink-700 items-center py-3 px-10 border-b border-gray-200 backdrop-blur-md">
-          <div className="text-md font-bold font-[playfair_display] text-white">Emaan's diary </div>
-          <ul className="hidden text-sm md:flex space-x-8 text-white font-medium">
-            <li><a href="/" className="hover:text-[#FAD2E1]">Home</a></li>
-            <li><a href="#Pottery" className="hover:text-[#FAD2E1]">Pottery</a></li>
-            <li><a href="#Memories" className="hover:text-[#FAD2E1]">Memories</a></li>
-            <li><a href="#Letters" className="hover:text-[#FAD2E1]">Letters</a></li>
-            <li><a href="#Footer" className="hover:text-[#FAD2E1]">Contact</a></li>
-          </ul>
-       
-        </nav>
+    <nav className="flex items-center justify-between bg-pink-700 py-3 px-10 border-b border-gray-200 backdrop-blur-md">
+  {/* Logo */}
+  <div className="text-md font-bold font-[playfair_display] text-white">
+    Emaan's diary
+  </div>
+
+  {/* Links (centered with absolute + left-50 translate-x-50) */}
+  <ul className="hidden md:flex space-x-8 text-white text-sm font-medium absolute left-1/2 transform -translate-x-1/2">
+    <li><a href="/" className="hover:text-[#FAD2E1]">Home</a></li>
+    <li><a href="#Pottery" className="hover:text-[#FAD2E1]">Pottery</a></li>
+    <li><a href="#Memories" className="hover:text-[#FAD2E1]">Memories</a></li>
+    <li><a href="#Letters" className="hover:text-[#FAD2E1]">Letters</a></li>
+    <li><a href="#Footer" className="hover:text-[#FAD2E1]">Contact</a></li>
+  </ul>
+</nav>
 
         {/* Hero Section */}
         <section className="relative flex flex-col items-center text-center py-8 px-6">
