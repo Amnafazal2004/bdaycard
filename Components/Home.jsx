@@ -16,31 +16,26 @@ const Home = () => {
       <div className="min-h-screen bg-gradient-to-r from-[#FDE2E4] via-[#FFF0F3] to-[#FAD2E1]">
 
         {/* Navbar */}
-        <nav className="flex justify-between bg-pink-700 items-center py-6 px-10 border-b border-gray-200 backdrop-blur-md">
-          <div className="text-xl font-bold font-[playfair_display] text-white">Emaan's diary </div>
-          <ul className="hidden md:flex space-x-8 text-white font-medium">
+        <nav className="flex justify-between bg-pink-700 items-center py-3 px-10 border-b border-gray-200 backdrop-blur-md">
+          <div className="text-md font-bold font-[playfair_display] text-white">Emaan's diary </div>
+          <ul className="hidden text-sm md:flex space-x-8 text-white font-medium">
             <li><a href="/" className="hover:text-[#FAD2E1]">Home</a></li>
             <li><a href="#Pottery" className="hover:text-[#FAD2E1]">Pottery</a></li>
             <li><a href="#Memories" className="hover:text-[#FAD2E1]">Memories</a></li>
             <li><a href="#Letters" className="hover:text-[#FAD2E1]">Letters</a></li>
             <li><a href="#Footer" className="hover:text-[#FAD2E1]">Contact</a></li>
           </ul>
-          <a
-            href="#"
-            className="hidden md:block border border-gray-300 px-5 py-2 rounded-full hover:bg-pink-100 transition"
-          >
-            Let’s work
-          </a>
+       
         </nav>
 
         {/* Hero Section */}
         <section className="relative flex flex-col items-center text-center py-8 px-6">
 
-          <h1 className="text-4xl md:text-6xl font-bold text-gray-900 font-[playfair_display] leading-tight z-10">
+          <p className="text-2xl md:text-5xl font-bold text-gray-900 font-[playfair_display] leading-tight z-10">
             Celebrating Emaan's<br />
             <span className="text-pink-700">22nd</span>
-          </h1>
-          <p className="mt-4 max-w-xl text-gray-600 z-10">
+          </p>
+          <p className="mt-4 max-w-xl text-sm text-gray-600 z-10">
             Read somewhere that peak friendship is when they give you handmade gifts that make you cry
             So this is curated just for you, by thinking about only you✨
           </p>

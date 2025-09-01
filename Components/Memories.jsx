@@ -28,7 +28,7 @@ const Memories = () => {
                     <Image
                       src={img}
                       alt={`Memory ${index + 1}`}
-                      className="w-full h-[400px] object-cover rounded-sm"
+                      className="w-full h-[300px] object-cover rounded-sm"
                     />
                     <p className="text-center text-base mt-4 text-gray-700 font-semibold">
                       {index + 1} {"<3"}
